@@ -152,10 +152,8 @@ html {
 .portfolio__figma {
   margin-bottom: 80px;
 }
-.portfolio__figma .content-portfolio__item:last-child {
-  grid-column: 2/4;
-}
 .portfolio__my {
+  margin-top: 50px;
   margin-bottom: 80px;
 }
 .portfolio__js .content-portfolio__item {
