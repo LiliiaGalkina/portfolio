@@ -163,18 +163,10 @@ html {
 		color: #1E4776
 	}
 
-	// .portfolio__figma
-
-	&__figma {
-		margin-bottom: 80px;
-		.content-portfolio__item:last-child {
-			grid-column: 2 / 4;
-		}
-	}
-
 	// .portfolio__my
 
 	&__my {
+		margin-top: 50px;
 		margin-bottom: 80px;
 	}
 
