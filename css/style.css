@@ -150,9 +150,6 @@ html {
   margin-bottom: 30px;
   color: #1E4776;
 }
-.portfolio__figma {
-  margin-bottom: 80px;
-}
 .portfolio__my {
   margin-top: 50px;
   margin-bottom: 80px;
@@ -174,13 +171,12 @@ html {
 }
 .content-portfolio__items {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   -moz-column-gap: 30px;
        column-gap: 30px;
   row-gap: 30px;
 }
 .content-portfolio__item {
-  grid-column: span 2;
   border-radius: 15px;
   box-shadow: 0px 4px 20px 0px rgba(150, 150, 150, 0.25);
 }
@@ -194,20 +190,29 @@ html {
 .content-portfolio__link {
   border-radius: 0px 0px 15px 15px;
 }
+.content-portfolio__items-js {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-portfolio__items-js .content-portfolio__item {
+  max-width: 50%;
+}
 
 .link-content {
   display: flex;
   flex-direction: column;
-  min-height: 100%;
+  height: 100%;
   padding-bottom: 20px;
 }
 .link-content__img {
   flex: 1 1 auto;
   margin-bottom: 20px;
+  overflow: hidden;
 }
 .link-content__img img {
-  max-width: 100%;
-  min-height: 100%;
+  width: 100%;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 15px 15px 0px 0px;
